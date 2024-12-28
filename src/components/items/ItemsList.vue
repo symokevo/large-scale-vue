@@ -1,6 +1,9 @@
 <script setup lang="ts">
+// import Item interface
+import type { ItemInterface } from '../../models/items/Item.interface'
+
 // items property with a blank array
-defineProps<{ items: any[] }>()
+defineProps<{ items: ItemInterface[] }>()
 </script>
 
 <template>
